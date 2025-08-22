@@ -60,6 +60,7 @@ A full-stack web application for managing stores, users, and ratings — built a
 
 ---
 
+
 ## 🚀 Local Setup & Installation
 
 ### Prerequisites
@@ -68,13 +69,13 @@ A full-stack web application for managing stores, users, and ratings — built a
 - PostgreSQL database instance
 
 ### 1️⃣ Clone the Repository
-bash
+```bash
 git clone https://github.com/your-username/store-ratings-app.git
 cd store-ratings-app
-
+```
 
 ### 2️⃣ Backend Setup
-bash
+```bash
 # Navigate to the server directory
 cd server
 
@@ -83,17 +84,17 @@ npm install
 
 # Create environment file
 cp .env.example .env
+```
 
-
-**Configure your .env file:**
-env
+**Configure your `.env` file:**
+```env
 DATABASE_URL="postgresql://username:password@localhost:5432/database_name"
 JWT_SECRET="your_super_secret_jwt_key_here"
 PORT=4000
 NODE_ENV=development
+```
 
-
-bash
+```bash
 # Generate Prisma client
 npm run prisma:generate
 
@@ -105,11 +106,11 @@ npm run seed
 
 # Start the backend server
 npm run dev
-
-✅ Backend will run on http://localhost:4000
+```
+✅ Backend will run on `http://localhost:4000`
 
 ### 3️⃣ Frontend Setup
-bash
+```bash
 # Navigate to the client directory (from root)
 cd client
 
@@ -118,10 +119,11 @@ npm install
 
 # Start the development server
 npm run dev
-
-✅ Frontend will run on http://localhost:5173
+```
+✅ Frontend will run on `http://localhost:5173`
 
 ---
+
 
 ## 🧪 Demo Accounts
 
