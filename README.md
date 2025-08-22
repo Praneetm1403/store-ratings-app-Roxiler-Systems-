@@ -162,8 +162,8 @@ These accounts are pre-loaded for testing:
 
 *Praneet Mahendrakar*
 
-- GitHub: [@your-github-username](https://github.com/Praneetm1403)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/praneetmahendrakar/)
+- GitHub: [Praneetm1403](https://github.com/Praneetm1403)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/praneetmahendrakar/)
 - Email: Praneetm1403@gmail.com
 
 ---
